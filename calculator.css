@@ -9,27 +9,27 @@ body {
     height: 100vh;
     color: white;
   }
-  
+
   .calculator {
     width: 100%;
     max-width: 320px;
     padding: 20px;
     box-sizing: border-box;
   }
-  
+
   .display {
     text-align: right;
     font-size: 64px;
     margin-bottom: 20px;
     padding: 0 10px;
   }
-  
+
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
-  
+
   .button {
     background-color: #333;
     color: white;
@@ -42,17 +42,17 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .button.gray {
     background-color: #a5a5a5;
     color: black;
   }
-  
+
   .button.orange {
     background-color: #f1a33c;
     color: white;
   }
-  
+
   .button.wide {
     grid-column: span 2;
     border-radius: 35px;
@@ -62,5 +62,5 @@ body {
   }
 
   .button.icon-large {
-    font-size: 36px; /* or even 40px if you want it really big */
+    font-size: 36px;
   }
